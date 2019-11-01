@@ -28,9 +28,7 @@
                     <div class="post">
                         <div class="row">
                             <div class="text col-md-6">
-                                <div class="date">
-                                    {{ $post->updated_at->format('Y年m月d日') }}
-                                </div>
+                                
                                 <div class="name">
                                     {{ \Str::limit($post->name, 150) }}
                                 </div>
