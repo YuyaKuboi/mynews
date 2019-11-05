@@ -1,15 +1,12 @@
 body {
     color: #000;
 }
-
 .header {
     .logo {
         width: 120px;
         height: 82px;
     }
 }
-
-
 .posts {
     .post {
         .date {
@@ -21,6 +18,12 @@ body {
             font-weight: bold;
         }
         .gender {
+            font-size: 0.8em;
+        }
+        .hobby {
+            font-size: 0.8em;
+        }
+        .introduction {
             font-size: 0.8em;
         }
     }
